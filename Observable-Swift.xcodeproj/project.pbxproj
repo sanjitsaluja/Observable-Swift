@@ -32,6 +32,20 @@
 		65D5366B195F711E003B5DA5 /* OwningEventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D53669195F711E003B5DA5 /* OwningEventReference.swift */; };
 		65E6A4341958EB8000FBCFA7 /* ObservableProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6A4331958EB8000FBCFA7 /* ObservableProxy.swift */; };
 		65E6A4351958EB8000FBCFA7 /* ObservableProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6A4331958EB8000FBCFA7 /* ObservableProxy.swift */; };
+		80A6A6D61C3FF726004406A4 /* Observable-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A6A6D51C3FF726004406A4 /* Observable-tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80A6A6DD1C3FF726004406A4 /* Observable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A6A6D31C3FF726004406A4 /* Observable.framework */; };
+		80A6A6E21C3FF726004406A4 /* Observable_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A6A6E11C3FF726004406A4 /* Observable_tvOSTests.swift */; };
+		80A6A6EA1C3FF73D004406A4 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65263AC11954EBD600B39269 /* Protocols.swift */; };
+		80A6A6EB1C3FF73D004406A4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65263AC51955D7AE00B39269 /* Event.swift */; };
+		80A6A6EC1C3FF73D004406A4 /* EventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A18B941958C180008E0B44 /* EventReference.swift */; };
+		80A6A6ED1C3FF73D004406A4 /* EventSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65263AC71955D83200B39269 /* EventSubscription.swift */; };
+		80A6A6EE1C3FF73D004406A4 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65263AB91954BC9F00B39269 /* Observable.swift */; };
+		80A6A6EF1C3FF73D004406A4 /* ObservableProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E6A4331958EB8000FBCFA7 /* ObservableProxy.swift */; };
+		80A6A6F01C3FF73D004406A4 /* ObservableReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65263AC31955004A00B39269 /* ObservableReference.swift */; };
+		80A6A6F11C3FF73D004406A4 /* ObservableChainingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7DC711957919100CFB99C /* ObservableChainingProxy.swift */; };
+		80A6A6F21C3FF73D004406A4 /* OwningEventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D53669195F711E003B5DA5 /* OwningEventReference.swift */; };
+		80A6A6F31C3FF73D004406A4 /* TupleObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65263ABF1954BD7400B39269 /* TupleObservable.swift */; };
+		80A6A6F41C3FF73D004406A4 /* Observable.h in Sources */ = {isa = PBXBuildFile; fileRef = 65263AA21954BC5000B39269 /* Observable.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +133,13 @@
 			remoteGlobalIDString = 6592C2FB1957532100BA8CB7;
 			remoteInfo = "Observable-iOS";
 		};
+		80A6A6DE1C3FF726004406A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65263A941954BC5000B39269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80A6A6D21C3FF726004406A4;
+			remoteInfo = "Observable-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +162,13 @@
 		65D53669195F711E003B5DA5 /* OwningEventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwningEventReference.swift; sourceTree = "<group>"; };
 		65E6A4331958EB8000FBCFA7 /* ObservableProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableProxy.swift; sourceTree = "<group>"; };
 		65E7DC711957919100CFB99C /* ObservableChainingProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableChainingProxy.swift; sourceTree = "<group>"; };
+		80A6A6CD1C3FF625004406A4 /* Observable-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Observable-iOS copy-Info.plist"; path = "/Users/sanjits/Z/Observable-Swift/Observable-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		80A6A6D31C3FF726004406A4 /* Observable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Observable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A6A6D51C3FF726004406A4 /* Observable-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Observable-tvOS.h"; sourceTree = "<group>"; };
+		80A6A6D71C3FF726004406A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A6A6DC1C3FF726004406A4 /* Observable-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Observable-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A6A6E11C3FF726004406A4 /* Observable_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable_tvOSTests.swift; sourceTree = "<group>"; };
+		80A6A6E31C3FF726004406A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +200,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80A6A6CF1C3FF726004406A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A6A6D91C3FF726004406A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A6A6DD1C3FF726004406A4 /* Observable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -181,7 +224,10 @@
 				1C93C1341AB0F65D0004FCEF /* Observable-Swift.podspec.json */,
 				65263A9F1954BC5000B39269 /* Observable */,
 				65263AAC1954BC5000B39269 /* ObservableTests */,
+				80A6A6D41C3FF726004406A4 /* Observable-tvOS */,
+				80A6A6E01C3FF726004406A4 /* Observable-tvOSTests */,
 				65263A9E1954BC5000B39269 /* Products */,
+				80A6A6CD1C3FF625004406A4 /* Observable-iOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +238,8 @@
 				65263AA81954BC5000B39269 /* Observable Tests.xctest */,
 				6592C2FC1957532100BA8CB7 /* Observable.framework */,
 				6592C3061957532100BA8CB7 /* Observable-iOS Tests.xctest */,
+				80A6A6D31C3FF726004406A4 /* Observable.framework */,
+				80A6A6DC1C3FF726004406A4 /* Observable-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,6 +290,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		80A6A6D41C3FF726004406A4 /* Observable-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				80A6A6D51C3FF726004406A4 /* Observable-tvOS.h */,
+				80A6A6D71C3FF726004406A4 /* Info.plist */,
+			);
+			path = "Observable-tvOS";
+			sourceTree = "<group>";
+		};
+		80A6A6E01C3FF726004406A4 /* Observable-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				80A6A6E11C3FF726004406A4 /* Observable_tvOSTests.swift */,
+				80A6A6E31C3FF726004406A4 /* Info.plist */,
+			);
+			path = "Observable-tvOSTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -258,6 +324,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6592C32B1957546100BA8CB7 /* Observable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A6A6D01C3FF726004406A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A6A6D61C3FF726004406A4 /* Observable-tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,13 +420,49 @@
 			productReference = 6592C3061957532100BA8CB7 /* Observable-iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		80A6A6D21C3FF726004406A4 /* Observable-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A6A6E41C3FF726004406A4 /* Build configuration list for PBXNativeTarget "Observable-tvOS" */;
+			buildPhases = (
+				80A6A6CE1C3FF726004406A4 /* Sources */,
+				80A6A6CF1C3FF726004406A4 /* Frameworks */,
+				80A6A6D01C3FF726004406A4 /* Headers */,
+				80A6A6D11C3FF726004406A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Observable-tvOS";
+			productName = "Observable-tvOS";
+			productReference = 80A6A6D31C3FF726004406A4 /* Observable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80A6A6DB1C3FF726004406A4 /* Observable-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A6A6E71C3FF726004406A4 /* Build configuration list for PBXNativeTarget "Observable-tvOSTests" */;
+			buildPhases = (
+				80A6A6D81C3FF726004406A4 /* Sources */,
+				80A6A6D91C3FF726004406A4 /* Frameworks */,
+				80A6A6DA1C3FF726004406A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A6A6DF1C3FF726004406A4 /* PBXTargetDependency */,
+			);
+			name = "Observable-tvOSTests";
+			productName = "Observable-tvOSTests";
+			productReference = 80A6A6DC1C3FF726004406A4 /* Observable-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		65263A941954BC5000B39269 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Leszek Ślażyński";
 				TargetAttributes = {
@@ -369,6 +479,12 @@
 					6592C3051957532100BA8CB7 = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 6592C2FB1957532100BA8CB7;
+					};
+					80A6A6D21C3FF726004406A4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					80A6A6DB1C3FF726004406A4 = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
@@ -388,6 +504,8 @@
 				65263AA71954BC5000B39269 /* Observable Tests */,
 				6592C2FB1957532100BA8CB7 /* Observable-iOS */,
 				6592C3051957532100BA8CB7 /* Observable-iOS Tests */,
+				80A6A6D21C3FF726004406A4 /* Observable-tvOS */,
+				80A6A6DB1C3FF726004406A4 /* Observable-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -416,6 +534,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6592C3041957532100BA8CB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A6A6D11C3FF726004406A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A6A6DA1C3FF726004406A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,6 +604,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				6592C3331957565F00BA8CB7 /* ObservableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A6A6CE1C3FF726004406A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A6A6EA1C3FF73D004406A4 /* Protocols.swift in Sources */,
+				80A6A6EB1C3FF73D004406A4 /* Event.swift in Sources */,
+				80A6A6EC1C3FF73D004406A4 /* EventReference.swift in Sources */,
+				80A6A6ED1C3FF73D004406A4 /* EventSubscription.swift in Sources */,
+				80A6A6EE1C3FF73D004406A4 /* Observable.swift in Sources */,
+				80A6A6EF1C3FF73D004406A4 /* ObservableProxy.swift in Sources */,
+				80A6A6F01C3FF73D004406A4 /* ObservableReference.swift in Sources */,
+				80A6A6F11C3FF73D004406A4 /* ObservableChainingProxy.swift in Sources */,
+				80A6A6F21C3FF73D004406A4 /* OwningEventReference.swift in Sources */,
+				80A6A6F31C3FF73D004406A4 /* TupleObservable.swift in Sources */,
+				80A6A6F41C3FF73D004406A4 /* Observable.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A6A6D81C3FF726004406A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A6A6E21C3FF726004406A4 /* Observable_tvOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +695,11 @@
 			isa = PBXTargetDependency;
 			target = 6592C2FB1957532100BA8CB7 /* Observable-iOS */;
 			targetProxy = 65E7DC691957879500CFB99C /* PBXContainerItemProxy */;
+		};
+		80A6A6DF1C3FF726004406A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80A6A6D21C3FF726004406A4 /* Observable-tvOS */;
+			targetProxy = 80A6A6DE1C3FF726004406A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -750,6 +913,82 @@
 			};
 			name = Release;
 		};
+		80A6A6E51C3FF726004406A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Observable-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utdloc.Observable;
+				PRODUCT_NAME = Observable;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		80A6A6E61C3FF726004406A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Observable-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.utdloc.Observable;
+				PRODUCT_NAME = Observable;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		80A6A6E81C3FF726004406A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Observable-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.Observable-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		80A6A6E91C3FF726004406A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Observable-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.Observable-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -797,6 +1036,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		80A6A6E41C3FF726004406A4 /* Build configuration list for PBXNativeTarget "Observable-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A6A6E51C3FF726004406A4 /* Debug */,
+				80A6A6E61C3FF726004406A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80A6A6E71C3FF726004406A4 /* Build configuration list for PBXNativeTarget "Observable-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A6A6E81C3FF726004406A4 /* Debug */,
+				80A6A6E91C3FF726004406A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
