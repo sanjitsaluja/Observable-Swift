@@ -162,7 +162,6 @@
 		65D53669195F711E003B5DA5 /* OwningEventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwningEventReference.swift; sourceTree = "<group>"; };
 		65E6A4331958EB8000FBCFA7 /* ObservableProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableProxy.swift; sourceTree = "<group>"; };
 		65E7DC711957919100CFB99C /* ObservableChainingProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableChainingProxy.swift; sourceTree = "<group>"; };
-		80A6A6CD1C3FF625004406A4 /* Observable-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Observable-iOS copy-Info.plist"; path = "/Users/sanjits/Z/Observable-Swift/Observable-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		80A6A6D31C3FF726004406A4 /* Observable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Observable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A6A6D51C3FF726004406A4 /* Observable-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Observable-tvOS.h"; sourceTree = "<group>"; };
 		80A6A6D71C3FF726004406A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -227,7 +226,6 @@
 				80A6A6D41C3FF726004406A4 /* Observable-tvOS */,
 				80A6A6E01C3FF726004406A4 /* Observable-tvOSTests */,
 				65263A9E1954BC5000B39269 /* Products */,
-				80A6A6CD1C3FF625004406A4 /* Observable-iOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -858,7 +856,7 @@
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Observable-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Observable;
@@ -873,7 +871,7 @@
 				DEFINES_MODULE = YES;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Observable-Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.utdloc.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Observable;
@@ -916,6 +914,7 @@
 		80A6A6E51C3FF726004406A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -939,6 +938,7 @@
 		80A6A6E61C3FF726004406A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
